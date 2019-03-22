@@ -1,0 +1,179 @@
+template ?>/css/template.css" type="text/css" />
+
+template ?>/css/ie6only.css" rel="stylesheet" type="text/css" />
+
+
+template ?>/css/ie7only.css" rel="stylesheet" type="text/css" />
+body, html, * {
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+    font-style: italic;
+}
+/* title format*/
+h1{
+    text-align: center;
+    padding: 16px;
+}
+/* closed list*/
+.menu{
+    position: relative;
+    float: left;
+/**/left: -260px;
+    width: 260px;
+    height: 100vh;
+    background-color: crimson;
+    color: white;
+    z-index: 999;
+    transition: all 1s;
+    position: fixed;
+}
+/* opened list*/
+.menu-open{
+    left: 0px;
+    background-color: midnightblue;
+}
+/* closed button*/
+.close-btn{
+    display: block;
+    height: 60px;
+    font-size: 30px;
+    float: right;
+    padding: 0 20px;
+    padding-left: 8px;
+    background-color: crimson;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    line-height: 60px;
+    transition: all 1s;
+}
+/* opened button*/
+.open-btn{
+    background-color: midnightblue;
+}
+/*format menu*/
+#father > li{
+    list-style-type: none;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    
+}li:hover{
+    background-color: darkgray;
+}
+/* format the submenu*/
+#son{
+    display: none; 
+    width: 100% !important
+}
+#son > li{
+    background-color: darkgray;
+    color: black;
+}#son > li:hover{
+    background-color: crimson; }
+    
+/*open page content*/
+.content{
+    position: relative;
+    background-color: beige;
+    height: 60px;
+    box-sizing: border-box;
+}.image{
+    position: relative;
+    height: 360px;
+    background-image: url(281.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*close page content*/
+.content{
+    width: 100%;
+    left: 0px;
+}
+
+
+#menu-2 {
+    float: right;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    position: fixed;
+    z-index: 100;
+    box-shadow: -1px 34px 8px rgba(0,045,0,0.3);
+    width: 100%;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,32353f+100 */
+background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+1,001a47+98 */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f3c5bd 1%, #001a47 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f3c5bd 1%,#001a47 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f3c5bd 1%,#001a47 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#001a47',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
+    color: #fff;
+    height: 60px;
+}
+#menu-2 {
+   text-align: left;
+    height top: 30px;
+    padding: 0px 30px;
+    font-size: 1,2em;
+    line-height: 30px;
+}
+
+
+#menu-2 > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+#menu > ul > li{
+    float: left;
+}
+
+
+.menu-4{
+    float: right;
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+}
+.menu-4:hover{
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+1,ea0052+98 */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #f3c5bd 1%, #ea0052 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #f3c5bd 1%,#ea0052 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #f3c5bd 1%,#ea0052 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#ea0052',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.menu-4:focus{
+    background-color: #ff0055;
+}
+
+#menu-3 {
+    float: left;
+}
+
+.paragraph {
+   background-color: ;
+    width: 100%;
+}
+
+#para1 {
+  float: right;
+    width: 40%;
+    background-color: yellow;
+    padding: 0px 30px;
+    margin: 2px 425px;
+}
+
+#para2 {
+    text-align: center;
+    width: 40%;
+    padding: 0px 20px;
+    background-color: yellow;
+    margin: 2px 60px;
+   }
